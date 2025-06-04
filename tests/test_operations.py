@@ -1,6 +1,6 @@
 """ tests/test_operations.py """
 import pytest
-from app.operations import addition
+from app.operations import addition, subtraction, multiplication, division
 
 def test_addition_positive():
     """Test positive cases for addition."""
