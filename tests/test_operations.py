@@ -16,7 +16,7 @@ def test_addition_negative():
 def test_subtraction_positive():
     """Test positive cases for subtraction."""
     assert subtraction(8, 3) == 5
-    assert subtraction(10, -6) == 4
+    assert subtraction(10, -6) == 16
 
 def test_subtraction_negative():
     """Test negative cases for subtraction."""
